@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.Logo {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+a:hover {
+    color: rgba(151, 102, 108, 0.753);
+}
+hr {
+    width: 50%;
+    background-color: rgb(161 113 99);
+}
+nav {
+    flex: 1;
+    text-align: center;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color:  rgb(161 113 99);
+    font-size: 14px;
+    font-family: 'Inconsolata', monospace;
+}
+.Slider{
+    position: relative;
+}
+.Back {
+    position: relative;
+    margin-left: 14%;
+    top: 130px;
+}
+.Back a {
+    text-decoration: none;
+    color:  rgb(161 113 99);
+}
+.Footer {
+    position: relative;
+    top: 200px;
+}
+.Serene-2021 {
+    justify-content: center;  
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.Serene-Interio-2021 {
+    color:  rgb(148 105 92);
+    font-size: 13px;
+    font-family: 'Inconsolata', monospace;
+}

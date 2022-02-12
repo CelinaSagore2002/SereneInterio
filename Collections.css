@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.Logo {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+a:hover {
+    color: rgba(151, 102, 108, 0.753);
+}
+hr {
+    width: 40%;
+    background-color: rgb(161 113 99);
+}
+nav {
+    flex: 1;
+    text-align: center;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color:  rgb(161 113 99);
+    font-size: 14px;
+    font-family: 'Inconsolata', monospace;
+}
+.container {
+    position: relative;
+    display: flex;
+    margin-top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+}
+.container .box {
+    position: relative;
+    width: 555px;
+    height: 450px;
+    margin: 0 15px;
+    text-align: center;
+    overflow: hidden;
+}
+.container .box .img {
+    width: 550px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+.container .box .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.container .box .overlay1 {
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: .6s;
+}
+.container .box:hover .overlay1{
+    left: 0%;
+}
+.container .box .text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50% -50%);
+    width: 80%;  
+}
+.container .box .text a, .container1 .box1 .text a {
+    text-decoration: none;
+}
+.container .box .text h2{
+    position: relative;
+    color: #884b38;
+    font-size: 30px;
+    text-transform: none;
+    opacity: 0;
+    transform: 1s;
+    transition-timing-function: linear;
+    transform: translateY(-10px);
+}
+.container .box:hover .text h2 {
+    transform: translateY(0);
+    opacity: 1;
+    transition-delay: .3s;
+}
+.container1 {
+    position: absolute;
+    display: flex;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+}
+.container2 {
+    position: absolute;
+    display: flex;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+}
+.container3 {
+    position: absolute;
+    display: flex;
+    top: 275%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+}
+.Footer {
+    margin-top: 60%;
+    position: relative;
+}
+.Serene-2021 {
+    justify-content: center;  
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.Serene-Interio-2021 {
+    color:  rgb(148 105 92);
+    font-size: 13px;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+
+
+

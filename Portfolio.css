@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.Logo {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+a:hover {
+    color: rgba(151, 102, 108, 0.753);
+}
+hr {
+    width: 40%;
+    background-color: rgb(161 113 99);
+}
+nav {
+    flex: 1;
+    text-align: center;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color:  rgb(161 113 99);
+    font-size: 14px;
+    font-family: 'Inconsolata', monospace;
+}
+p {
+    color: rgb(148 105 92);
+}
+.container {
+    position: relative;
+    display: flex;
+    margin-top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+}
+.container .box {
+    position: relative;
+    width: 555px;
+    height: 450px;
+    margin: 0 15px;
+    text-align: center;
+    overflow: hidden;
+}
+.container .box .img {
+    width: 450px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+.container1 {
+    position: relative;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+}
+.container1 .box {
+    position: relative;
+    width: 555px;
+    height: 450px;
+    margin: 0 15px;
+    text-align: center;
+    overflow: hidden;
+}
+.container1 .box .img {
+    width: 450px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+.container2 {
+    position: relative;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+}
+.container2 .box {
+    position: relative;
+    width: 555px;
+    height: 450px;
+    margin: 0 15px;
+    text-align: center;
+    overflow: hidden;
+}
+.container2 .box .img {
+    width: 450px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+.Footer {
+    position: relative;
+}
+.Serene-2021 {
+    justify-content: center;  
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.Serene-Interio-2021 {
+    color:  rgb(148 105 92);
+    font-size: 13px;
+    font-family: 'Inconsolata', monospace;
+}

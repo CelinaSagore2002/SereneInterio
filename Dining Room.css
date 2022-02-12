@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.Logo {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+a:hover {
+    color: rgba(151, 102, 108, 0.753);
+}
+hr {
+    width: 40%;
+    background-color: rgb(161 113 99);
+}
+nav {
+    text-align: center;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color:  rgb(161 113 99);
+    font-size: 14px;
+    font-family: 'Inconsolata', monospace;
+}
+.container {
+    display: flex;
+    width: 100%;
+    margin-top: 79px;
+    box-sizing: border-box;
+}
+.container-1 {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+} 
+.container-2 {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+} 
+.box {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+} 
+.box > img {
+    width: 200%;
+    height: calc(100% - 10vh);
+    object-fit: cover; 
+    transition: .5s;
+}
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+    width: 100%;
+    height: 100%;
+}
+.Back {
+    position: relative;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.Back a {
+    text-decoration: none;
+    color:  rgb(161 113 99);
+
+}
+.Footer {
+    position: relative;
+    margin-top: 70px;
+}
+.Serene-2021 {
+    justify-content: center;  
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.Serene-Interio-2021 {
+    color:  rgb(148 105 92);
+    font-size: 13px;
+    font-family: 'Inconsolata', monospace;
+}
+
+   

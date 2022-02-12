@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.Logo {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+a:hover {
+    color: rgba(151, 102, 108, 0.753);
+}
+hr {
+    width: 40%;
+    background-color: rgb(161 113 99);
+}
+nav {
+    text-align: center;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color:  rgb(161 113 99);
+    font-size: 14px;
+    font-family: 'Inconsolata', monospace;
+}
+.Video {
+    margin-top: 79px;
+    position: relative;
+    margin-left: 7.9%;
+    width: 84%;
+}
+.Welcome {
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+}
+.Serene-Interio {
+    color:  rgb(148 105 92);
+    font-size: 32px;
+    font-family: 'Inconsolata', monospace;
+}
+.About-Serene {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: rgb(148 105 92 / 68%);
+    align-items: center;
+}
+.About {
+     position: relative;
+     margin-top: 30px;
+     display: flex;
+     margin-left: 20%;
+     margin-right: 20%;
+     justify-content: center;  
+     align-items: center;
+     text-align: center;
+}
+.About-Interio {  
+    font-size: 18px;
+    color: rgb(148 105 92 / 68%);
+    font-family: Inconsolata ;
+}
+.Footer {
+    margin-top: 105px;
+    position: relative;
+}
+.Serene-2021 {
+    justify-content: center;  
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.Serene-Interio-2021 {
+    color:  rgb(148 105 92);
+    font-size: 13px;
+    font-family: 'Inconsolata', monospace;
+}

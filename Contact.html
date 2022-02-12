@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact - Serene Interio</title>
+    <link rel="stylesheet" href="Contact.css">
+    <link rel="shortcut icon" href="/Logo/Serene Interio.ico" type="image/x-icon">
+    <script src="contact.js"></script>
+</head>
+
+<body>
+    <div id="Home">
+        <!--Logo-->
+        <div class="Logo">
+            <a href="index.html"><img src="Logo/Serene Interio.png" alt="img"></a>
+        </div>
+        <hr>
+        <!--Navigation Bar-->
+        <div class="Home-elements">
+            <nav>
+                <ul>
+                    <li><a href="Blog.html" class="Items">Blog</a></li>
+                    <li><a href="About.html" class="Items">About</a></li>
+                    <li><a href="Portfolio.html" class="Items">Portfolio</a></li>
+                    <li><a href="Collections.html" class="Items">Collections</a></li>
+                    <li><a href="Contact.html" class="Items">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--Contact Form-->
+        <div class="Contact-pic">
+            <img src="Contact/Contact.jpg" width="100%">
+        </div>
+        <div class="Contact-form">
+            <form onsubmit="getvalue()">
+                <h2>Send a Message</h2>
+                <p>Please send your request for information and assistance to the addresses listed
+                    below and we will get back to you in the shortest time possible.
+                </p>
+                <br>
+                <div class="Form">
+                    <input type="text" id="FullName" name="Full Name" required>
+                    <span>Full Name</span>
+                </div>
+                <div class="Form">
+                    <input type="email" id="Email" name="Email" required>
+                    <span>Email</span>
+                </div>
+                <div class="Form">
+                    <input type="number" id="Contact" name="Contact" required>
+                    <span>Phone</span>
+                </div>
+                <div class="Form">
+                    <textarea type="text" id="Text" required></textarea>
+                    <span>Your Message</span>
+                </div>
+                <br>
+                <br>
+                <label for="" class="Checkbox">
+                    <input type="checkbox" class="Checkbox-input">
+                    <span>
+                        I would like to receive the newsletter and commercial communications
+                    </span>
+                </label>
+                <br>
+                <br>
+                <br>
+                <div class="Submit-Form">
+                    <input type="submit" id="submitform" name="submitform" class="Submit" onclick="hello() " />
+                </div>
+
+                <div id="showData">
+                </div>
+
+            </form>
+        </div>
+        <!--Communication Info-->
+        <div class="Communication">
+            <div class="Communication-info">
+                <div class="box">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_9m5mlfdj.json"
+                        background="transparent" speed="1" style="width: 70px;" loop autoplay></lottie-player>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>Via della Spiga, 7 <br>20121, Milano - Italy</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_rkeinneg.json"
+                        background="transparent" speed="1" style="width: 70px;" loop autoplay></lottie-player>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>+39 0438 171 0600</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_omkxwyro.json"
+                        background="transparent" speed="1" style="width: 70px;" loop autoplay></lottie-player>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>atelier@sereneinterio.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Footer-->
+        <div class="Footer">
+            <div class="Serene-2021">
+                <h1 class="Serene-Interio-2021">
+                    2021 Serene Interio Studio
+                </h1>
+                <br>
+                <a href="#"><img src="Logo/instagram.png" alt="img"></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
